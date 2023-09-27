@@ -1,0 +1,3 @@
+.gradientBlue {
+  @apply bg-gradient-to-br from-gradientBlueLeft to-gradientBlueRight;
+}

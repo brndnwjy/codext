@@ -5,6 +5,7 @@ import Advantage from "./Advantage";
 import ServiceCard from "./ServiceCard";
 import Services from "./Services";
 import PricingCard from "./PricingCard";
+import Pricing from "./Pricing";
 
 export {
   Navbar,
@@ -14,4 +15,5 @@ export {
   ServiceCard,
   Services,
   PricingCard,
+  Pricing,
 };

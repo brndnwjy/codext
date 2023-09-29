@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const ServicePoint = ({ title, arrow }: { title: string; arrow: string }) => {
+const ArrowPoint = ({ title, arrow }: { title: string; arrow: string }) => {
   return (
     <article className="flex items-start gap-4">
       <Image src={arrow} alt="Arrow" width={25} height={25} className="pt-1"/>
@@ -17,4 +17,4 @@ const ServicePoint = ({ title, arrow }: { title: string; arrow: string }) => {
   );
 };
 
-export default ServicePoint;
+export default ArrowPoint;

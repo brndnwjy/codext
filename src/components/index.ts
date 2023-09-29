@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
 import Hero from "./Hero";
-import ServicePoint from "./ServicePoint";
+import ArrowPoint from "./ArrowPoint";
 
-export { Navbar, Hero, ServicePoint };
+export { Navbar, Hero, ArrowPoint };

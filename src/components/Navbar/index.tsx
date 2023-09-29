@@ -4,7 +4,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="w-full h-20 fixed top-0  flex items-center justify-center shadow-md">
+    <nav className="w-full h-24 fixed top-0  flex items-center justify-center">
       <section className="w-full max-w-5xl flex items-center justify-between px-4">
         <Image src={"/assets/logo.png"} alt="Codext" width={100} height={100} />
         <div className="flex gap-4 items-center">

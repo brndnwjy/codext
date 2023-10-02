@@ -2,8 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 interface ReviewBubbleProps {
-  bottom: number;
-  left: number;
+  style: string;
   image: string;
   width: number;
   height: number;
@@ -14,8 +13,7 @@ interface ReviewBubbleProps {
 }
 
 const ReviewBubble = ({
-  bottom,
-  left,
+  style,
   image,
   width,
   height,
@@ -26,7 +24,7 @@ const ReviewBubble = ({
 }: ReviewBubbleProps) => {
   return (
     <article
-      className={`absolute bottom-[${bottom}%] left-[${left}%] flex ${
+      className={`absolute ${style} flex ${
         reverse ? "flex-row-reverse" : ""
       } items-center gap-4`}
     >

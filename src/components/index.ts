@@ -7,6 +7,7 @@ import Services from "./Services";
 import PricingCard from "./PricingCard";
 import Pricing from "./Pricing";
 import Review from "./Review";
+import ReviewBubble from "./ReviewBubble";
 
 export {
   Navbar,
@@ -18,4 +19,5 @@ export {
   PricingCard,
   Pricing,
   Review,
+  ReviewBubble
 };

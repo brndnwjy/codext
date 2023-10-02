@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { ReviewBubble } from "..";
 
 const Review = () => {
   return (
@@ -14,115 +15,61 @@ const Review = () => {
           lobortis nisi.
         </p>
         <div className="w-full h-full mapBg relative">
-          <article className="absolute bottom-[45%] left-[41%] flex items-center gap-4">
-            <Image
-              src={"/assets/userOne.jpg"}
-              alt="user"
-              width={75}
-              height={75}
-              className="rounded-full aspect-square object-cover border-2 border-primaryBlue peer cursor-pointer userReviewAnimate hover:animate-none hover:scale-110 transition-all duration-300"
-            />
-            <div className="gradientBlue text-white p-4 rounded-lg flex flex-col items-start opacity-0 peer-hover:opacity-100 transition-all duration-300">
-              <h4 className="reviewQuote mb-4">
-                <em>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                  scelerisque.
-                </em>
-              </h4>
-              <h5 className="text-sm pl-5">Wilson Bergson</h5>
-              <small className="font-extralight text-xs pl-5">
-                Marketing Manager
-              </small>
-            </div>
-          </article>
+          <ReviewBubble
+            bottom={45}
+            left={41}
+            image={"/assets/userOne.jpg"}
+            width={75}
+            height={75}
+            fullName={"Wilson Bergson"}
+            position={"Marketing Manager"}
+            content={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque.`}
+          />
 
-          <article className="absolute bottom-[25%] left-[29%] flex items-center gap-4">
-            <Image
-              src={"/assets/userTwo.jpg"}
-              alt="user"
-              width={65}
-              height={65}
-              className="rounded-full aspect-square object-cover border-2 border-primaryBlue peer cursor-pointer userReviewAnimate hover:animate-none hover:scale-110 transition-all duration-300"
-            />
-            <div className="gradientBlue text-white p-4 rounded-lg flex flex-col items-start opacity-0 peer-hover:opacity-100 transition-all duration-300">
-              <h4 className="reviewQuote mb-4">
-                <em>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                  scelerisque.
-                </em>
-              </h4>
-              <h5 className="text-sm pl-5">Wilson Bergson</h5>
-              <small className="font-extralight text-xs pl-5">
-                Marketing Manager
-              </small>
-            </div>
-          </article>
+          <ReviewBubble
+            bottom={25}
+            left={29}
+            image={"/assets/userTwo.jpg"}
+            width={65}
+            height={65}
+            fullName={"Robert Arnfinn"}
+            position={"Creative Director"}
+            content={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque.`}
+          />
 
-          <article className="absolute bottom-[61%] left-[22%] flex items-center gap-4">
-            <Image
-              src={"/assets/userThree.jpg"}
-              alt="user"
-              width={65}
-              height={65}
-              className="rounded-full aspect-square object-cover border-2 border-primaryBlue peer cursor-pointer userReviewAnimate hover:animate-none hover:scale-110 transition-all duration-300"
-            />
-            <div className="gradientBlue text-white p-4 rounded-lg flex flex-col items-start opacity-0 peer-hover:opacity-100 transition-all duration-300">
-              <h4 className="reviewQuote mb-4">
-                <em>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                  scelerisque.
-                </em>
-              </h4>
-              <h5 className="text-sm pl-5">Wilson Bergson</h5>
-              <small className="font-extralight text-xs pl-5">
-                Marketing Manager
-              </small>
-            </div>
-          </article>
+          <ReviewBubble
+            bottom={61}
+            left={22}
+            image={"/assets/userThree.jpg"}
+            width={65}
+            height={65}
+            fullName={"Susanna Inger"}
+            position={"Senior Quality Assurance"}
+            content={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque.`}
+          />
 
-          <article className="absolute bottom-[61%] left-[66%] flex items-center gap-4">
-            <Image
-              src={"/assets/userFour.jpg"}
-              alt="user"
-              width={65}
-              height={65}
-              className="rounded-full aspect-square object-cover border-2 border-primaryBlue peer cursor-pointer userReviewAnimate hover:animate-none hover:scale-110 transition-all duration-300"
-            />
-            <div className="gradientBlue text-white p-4 rounded-lg flex flex-col items-start opacity-0 peer-hover:opacity-100 transition-all duration-300">
-              <h4 className="reviewQuote mb-4">
-                <em>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                  scelerisque.
-                </em>
-              </h4>
-              <h5 className="text-sm pl-5">Wilson Bergson</h5>
-              <small className="font-extralight text-xs pl-5">
-                Marketing Manager
-              </small>
-            </div>
-          </article>
+          <ReviewBubble
+            bottom={61}
+            left={66}
+            image={"/assets/userFour.jpg"}
+            width={65}
+            height={65}
+            fullName={"Varlam Codrin"}
+            position={"HR Specialist"}
+            content={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque.`}
+          />
 
-          <article className="absolute bottom-[17%] left-[52%] flex flex-row-reverse items-center gap-4">
-            <Image
-              src={"/assets/userFive.jpg"}
-              alt="user"
-              width={65}
-              height={65}
-              className="rounded-full aspect-square object-cover border-2 border-primaryBlue peer cursor-pointer userReviewAnimate hover:animate-none hover:scale-110 transition-all duration-300"
-            />
-            <div className="gradientBlue text-white p-4 rounded-lg flex flex-col items-start opacity-0 peer-hover:opacity-100 transition-all duration-300">
-              <h4 className="reviewQuote mb-4">
-                <em>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                  scelerisque.
-                </em>
-              </h4>
-              <h5 className="text-sm pl-5">Wilson Bergson</h5>
-              <small className="font-extralight text-xs pl-5">
-                Marketing Manager
-              </small>
-            </div>
-          </article>
+          <ReviewBubble
+            bottom={17}
+            left={52}
+            image={"/assets/userFive.jpg"}
+            width={65}
+            height={65}
+            fullName={"Kamal Bishal"}
+            position={"IT Support"}
+            content={`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque.`}
+            reverse
+          />
         </div>
       </div>
     </section>

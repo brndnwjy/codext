@@ -9,6 +9,7 @@ import Pricing from "./Pricing";
 import Review from "./Review";
 import ReviewBubble from "./ReviewBubble";
 import InsightCard from "./InsightCard";
+import Insight from "./Insight";
 
 export {
   Navbar,
@@ -22,4 +23,5 @@ export {
   Review,
   ReviewBubble,
   InsightCard,
+  Insight,
 };

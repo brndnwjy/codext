@@ -3,7 +3,7 @@ import { InsightCard } from "..";
 
 const Insight = () => {
   return (
-    <section className="h-screen w-full pt-10">
+    <section id="blog" className="h-screen w-full pt-10">
       <div className="h-full w-full flex flex-col items-center justify-center text-center max-w-5xl mx-auto px-4">
         <h2 className="font-semibold text-heading text-4xl w-1/2 mb-16">
           Latest Insight News

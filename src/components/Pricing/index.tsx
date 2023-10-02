@@ -3,7 +3,7 @@ import { PricingCard } from "..";
 
 const Pricing = () => {
   return (
-    <section className="h-screen w-full pt-10">
+    <section id="pricing" className="h-screen w-full pt-10">
       <div className="h-full w-full flex flex-col items-center justify-center text-center max-w-5xl mx-auto px-4">
         <h2 className="font-semibold text-heading text-4xl mb-16">
           Choose your best pricing plan

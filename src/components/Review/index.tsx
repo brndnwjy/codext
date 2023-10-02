@@ -4,7 +4,7 @@ import { ReviewBubble } from "..";
 
 const Review = () => {
   return (
-    <section className="h-screen w-full pt-10">
+    <section id="testimonials" className="h-screen w-full pt-10">
       <div className="h-full w-full flex flex-col items-center justify-center text-center">
         <h2 className="font-semibold text-heading text-4xl mb-7">
           Let&apos;s see our User&apos;s Review

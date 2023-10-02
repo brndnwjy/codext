@@ -6,6 +6,7 @@ import ServiceCard from "./ServiceCard";
 import Services from "./Services";
 import PricingCard from "./PricingCard";
 import Pricing from "./Pricing";
+import Review from "./Review";
 
 export {
   Navbar,
@@ -16,4 +17,5 @@ export {
   Services,
   PricingCard,
   Pricing,
+  Review,
 };

@@ -1,0 +1,22 @@
+.reviewQuote {
+  width: 250px;
+  font-size: 11px;
+  position: relative;
+}
+
+.reviewQuote em {
+  text-align: center;
+  padding-inline: 0.25rem;
+}
+
+.reviewQuote::before {
+  content: url("/assets/starttick.png");
+  position: absolute;
+  transform: translateX(-1.5rem);
+}
+
+.reviewQuote::after {
+  content: url("/assets/endtick.png");
+  position: absolute;
+  transform: translateY(0.25rem);
+}

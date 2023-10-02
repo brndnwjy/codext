@@ -3,3 +3,6 @@
 @tailwind utilities;
 
 @import "./gradient.css";
+@import "./mapBackground.css";
+@import "./reviewQuote.css";
+@import "./userReviewAnimate.css";

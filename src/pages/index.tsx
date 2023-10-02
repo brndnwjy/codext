@@ -8,6 +8,7 @@ import {
   Pricing,
   Review,
   Insight,
+  Footer,
 } from "@/components";
 import Head from "next/head";
 
@@ -24,7 +25,8 @@ export default function Home() {
       <Services />
       <Pricing />
       <Review />
-      <Insight /> 
+      <Insight />
+      <Footer />
     </main>
   );
 }

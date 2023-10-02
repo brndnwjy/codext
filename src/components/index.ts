@@ -10,6 +10,7 @@ import Review from "./Review";
 import ReviewBubble from "./ReviewBubble";
 import InsightCard from "./InsightCard";
 import Insight from "./Insight";
+import Footer from "./Footer";
 
 export {
   Navbar,
@@ -24,4 +25,5 @@ export {
   ReviewBubble,
   InsightCard,
   Insight,
+  Footer,
 };
